@@ -1,14 +1,13 @@
 ---
-layout: archive
+title: "David Reitz"
+layout: splash
+date: 2016-09-04T11:48:41-04:00
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.2"
+  overlay_image: frontpage.png
+  cta_label: "Kontaktieren Sie mich."
+  cta_url: "/kontakt/"
+excerpt: "Ich bin ein passionierter<br><a href='/dirigent/'>Dirigent</a> und <a href='/cellist/'>Cellist</a> mit<br>internationalen <a href='/agenda/'>auftritten</a>.<br><br><br><br><br><br><br><br><br><br><br><br><br>"
 ---
-
-{% include base_path %}
-
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
