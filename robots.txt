@@ -1,4 +1,5 @@
 # robotstxt.org/
 
 User-agent: *
+# TODO: allow all on project launch
 Disallow: /
